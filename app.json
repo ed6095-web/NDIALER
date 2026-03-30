@@ -1,12 +1,12 @@
 {
   "expo": {
-    "name": "Call",
-    "slug": "Call",
+    "name": "NDIALER",
+    "slug": "NDIALER",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
-    "newArchEnabled": true,
+    "newArchEnabled": false,
     "splash": {
       "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
@@ -21,12 +21,12 @@
         "backgroundColor": "#ffffff"
       },
       "edgeToEdgeEnabled": true,
-      "predictiveBackGestureEnabled": false,
+      "package": "com.ed6095.ndialer",
       "permissions": [
-        "CAMERA",
-        "READ_CONTACTS",
-        "WRITE_CONTACTS",
-        "POST_NOTIFICATIONS"
+        "android.permission.CAMERA",
+        "android.permission.READ_CONTACTS",
+        "android.permission.WRITE_CONTACTS",
+        "android.permission.POST_NOTIFICATIONS"
       ]
     },
     "web": {
@@ -40,6 +40,11 @@
           "profileRead": false
         }
       ]
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "bf6a78eb-e371-4bf2-ab9f-cfc3cfff95cc"
+      }
+    }
   }
 }
